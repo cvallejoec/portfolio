@@ -1,15 +1,19 @@
 import React from 'react';
-import './assets/styles/App.scss'
+import './assets/styles/App.scss';
 import './assets/styles/css/main.css';
 
 import Menu from './components/Menu.jsx';
+import Hero from './components/Hero.jsx';
+import Services from './components/Services.jsx';
+import AboutMe from './components/AboutMe.jsx';
 
 function App() {
   return (
-    <div className="App antialiased">
-      <header className="lg:px-16 px-6 bg-white flex flex-wrap items-center lg:py-0 py-2">
-        <Menu />
-      </header>
+    <div className="App antialiased text-portfolio_white">
+      <Menu />
+      <Hero />
+      <Services />
+      <AboutMe />
     </div>
   );
 }
