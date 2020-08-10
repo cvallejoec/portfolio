@@ -5,7 +5,7 @@ const IconGitHub = ({ link, width, fill }) => {
     <a href={link} target="_blank" className="m-2">
       <svg
         id="Bold"
-        enable-background="new 0 0 24 24"
+        enableBackground="new 0 0 24 24"
         height={width}
         viewBox="0 0 24 24"
         width={width}

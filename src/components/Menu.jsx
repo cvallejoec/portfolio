@@ -37,7 +37,7 @@ const Menu = () => {
             <li>
               <a
                 href="#"
-                className="lg:p-4 py-3 px-0 block border-b-2 border-transparent hover:border-portfolio_orange uppercase text-right"
+                className="lg:p-4 py-3 px-0 block border-b-2 border-transparent hover:border-portfolio_orange hover:text-portfolio_gray_dark uppercase text-right"
               >
                 Home
               </a>
@@ -45,7 +45,7 @@ const Menu = () => {
             <li>
               <a
                 href="#"
-                className="lg:p-4 py-3 px-0 block border-b-2 border-transparent hover:border-portfolio_orange uppercase text-right"
+                className="lg:p-4 py-3 px-0 block border-b-2 border-transparent hover:border-portfolio_orange hover:text-portfolio_gray_dark uppercase text-right"
               >
                 Services
               </a>
@@ -53,7 +53,7 @@ const Menu = () => {
             <li>
               <a
                 href="#"
-                className="lg:p-4 py-3 px-0 block border-b-2 border-transparent hover:border-portfolio_orange uppercase text-right"
+                className="lg:p-4 py-3 px-0 block border-b-2 border-transparent hover:border-portfolio_orange hover:text-portfolio_gray_dark uppercase text-right"
               >
                 About Me
               </a>
@@ -61,7 +61,7 @@ const Menu = () => {
             <li>
               <a
                 href="#"
-                className="lg:p-4 py-3 px-0 block border-b-2 border-transparent hover:border-portfolio_orange uppercase text-right"
+                className="lg:p-4 py-3 px-0 block border-b-2 border-transparent hover:border-portfolio_orange hover:text-portfolio_gray_dark uppercase text-right"
               >
                 Skills
               </a>
@@ -69,7 +69,7 @@ const Menu = () => {
             <li>
               <a
                 href="#"
-                className="lg:p-4 py-3 px-0 block border-b-2 border-transparent hover:border-portfolio_orange uppercase text-right"
+                className="lg:p-4 py-3 px-0 block border-b-2 border-transparent hover:border-portfolio_orange hover:text-portfolio_gray_dark uppercase text-right"
               >
                 Portfolio
               </a>
@@ -77,7 +77,7 @@ const Menu = () => {
             <li>
               <a
                 href="#"
-                className="lg:p-4 py-3 px-0 block border-b-2 border-transparent hover:border-portfolio_orange uppercase text-right"
+                className="lg:p-4 py-3 px-0 block border-b-2 border-transparent hover:border-portfolio_orange hover:text-portfolio_gray_dark uppercase text-right"
               >
                 Clients
               </a>
@@ -85,7 +85,7 @@ const Menu = () => {
             <li>
               <a
                 href="#"
-                className="lg:p-4 py-3 px-0 block border-b-2 border-transparent hover:border-portfolio_orange uppercase text-right"
+                className="lg:p-4 py-3 px-0 block border-b-2 border-transparent hover:border-portfolio_orange hover:text-portfolio_gray_dark uppercase text-right"
               >
                 Contact
               </a>

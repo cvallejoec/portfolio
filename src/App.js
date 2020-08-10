@@ -6,6 +6,7 @@ import Menu from './components/Menu.jsx';
 import Hero from './components/Hero.jsx';
 import Services from './components/Services.jsx';
 import AboutMe from './components/AboutMe.jsx';
+import Footer from './components/Footer.jsx';
 
 function App() {
   return (
@@ -14,6 +15,9 @@ function App() {
       <Hero />
       <Services />
       <AboutMe />
+
+      <div className="h-56"></div>
+      <Footer />
     </div>
   );
 }
