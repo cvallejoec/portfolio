@@ -7,6 +7,7 @@ import Hero from './components/Hero.jsx';
 import Services from './components/Services.jsx';
 import AboutMe from './components/AboutMe.jsx';
 import Footer from './components/Footer.jsx';
+import MySkills from './components/MySkills.jsx';
 
 function App() {
   return (
@@ -15,7 +16,7 @@ function App() {
       <Hero />
       <Services />
       <AboutMe />
-
+      <MySkills />
       <div className="h-56"></div>
       <Footer />
     </div>

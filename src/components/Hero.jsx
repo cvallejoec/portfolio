@@ -79,6 +79,9 @@ const Hero = () => {
               Focused
             </a>
             <a className="text-2xl my-4 md:text-4xl px-4 py-3 border sm:px-10 sm:py-4 w-auto">
+              Friendly
+            </a>
+            <a className="text-2xl my-4 md:text-4xl px-4 py-3 border sm:px-10 sm:py-4 w-auto">
               Hard Worker
             </a>
             <a className="text-2xl my-4 md:text-4xl px-4 py-3 border sm:px-10 sm:py-4 w-auto">
