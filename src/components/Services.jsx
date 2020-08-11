@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 
 import Service from './Service.jsx';
 
@@ -42,7 +42,7 @@ const Services = () => {
         <Service
           icon={ServiceGit}
           title="Git & GitHub"
-          description="Finally, either if I'm working alone or with a team, I use productive workflows in order to manage my work."
+          description="Finally, either if I'm working alone or with a team, I use productive workflows in order to get the best results."
         />
       </div>
     </div>

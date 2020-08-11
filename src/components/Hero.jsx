@@ -8,39 +8,6 @@ import IconEmail from '../icons/icon-email.jsx';
 import { queries } from '@testing-library/react';
 
 const Hero = () => {
-  // const qualities = ['Programmer', 'Scraper', 'Youtuber'];
-
-  // const [indexQualitie] = useState(0);
-  // const [seconds, setSeconds] = useState(0);
-
-  // const setIndexQualitie = (index) => {
-  //   indexQualitie = index;
-  // };
-
-  // const handleIndex = () => {
-  //   // console.log(indexQualitie);
-  //   // console.log(qualities.length);
-  //   if (indexQualitie > qualities.length) {
-  //     console.log('si entró');
-  //     setIndexQualitie(0);
-  //   }
-  //   setIndexQualitie((indexQualitie) => indexQualitie + 1);
-  // };
-
-  // useEffect(() => {
-  //   const interval = setInterval(() => {
-  //     setSeconds((seconds) => seconds + 1);
-
-  //     // handleIndex();
-  //     if (indexQualitie > 2) {
-  //       console.log('entró');
-  //     }
-  //     setIndexQualitie((indexQualitie) => indexQualitie + 1);
-  //     // console.log(indexQualitie);
-  //   }, 1000);
-  //   // return () => clearInterval(interval);
-  // }, []);
-
   return (
     <div className="text-portfolio_white  h-screen flex flex-col justify-center pl-8 lg:pl-48 background-hero">
       <div className="pt-40">
@@ -66,7 +33,9 @@ const Hero = () => {
             fill="hover:text-portfolio_gray_light text-portfolio_gray fill-current"
           />
         </div>
-        <h1 className="text-4xl my-4 md:text-6xl">I am Carlos Vallejo</h1>
+        <h1 className="text-4xl my-4 md:text-6xl" data-aos="fade-right">
+          I am Carlos Vallejo
+        </h1>
         <div className="">
           <TextLoop
             interval={3000}

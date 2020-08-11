@@ -1,8 +1,11 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 
 const Service = ({ icon, title, description }) => {
   return (
-    <div className="m-10 flex flex-col items-center sm:items-start">
+    <div
+      data-aos="fade-up"
+      className="m-10 flex flex-col items-center sm:items-start"
+    >
       <img src={icon} className="w-16" />
       <h2 className="my-8 text-2xl">{title}</h2>
       <p className="text-portfolio_gray text-center sm:text-left">

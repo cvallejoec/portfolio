@@ -5,7 +5,7 @@ import Retrato from '../assets/static/retrato.jpeg';
 
 const Menu = () => {
   return (
-    <header className="lg:px-16 px-6 bg-white flex flex-wrap items-center lg:py-0 py-2 fixed w-screen">
+    <header className="lg:px-16 px-6 bg-white flex flex-wrap items-center lg:py-0 py-2 fixed w-screen z-30">
       <div className="flex-1 flex justify-between items-center">
         <a href="#">
           <img
@@ -66,7 +66,7 @@ const Menu = () => {
                 Skills
               </a>
             </li>
-            <li>
+            {/* <li>
               <a
                 href="#"
                 className="lg:p-4 py-3 px-0 block border-b-2 border-transparent hover:border-portfolio_orange hover:text-portfolio_gray_dark uppercase text-right"
@@ -89,7 +89,7 @@ const Menu = () => {
               >
                 Contact
               </a>
-            </li>
+            </li> */}
           </ul>
         </nav>
         <a

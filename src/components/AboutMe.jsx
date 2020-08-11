@@ -1,8 +1,14 @@
-import React from 'react';
+import React, { useEffect } from 'react';
+import Aos from 'aos';
+import 'aos/dist/aos.css';
 
 import Retrato from '../assets/static/retrato.jpeg';
 
 const AboutMe = () => {
+  useEffect(() => {
+    Aos.init({ duration: 3000 });
+  }, []);
+
   return (
     <section className="flex flex-col items-center justify-center">
       <h2 className="mt-24 mb-16 text-3xl">About Me</h2>
@@ -19,7 +25,7 @@ const AboutMe = () => {
             satisfied when I serve to people and also when I work to get a
             company goal.
           </p>
-          <div>
+          <div data-aos="fade-up">
             <div className="grid sm:grid-cols-2">
               <div className="my-2">
                 <label className="text-portfolio_orange font-bold">Name:</label>
