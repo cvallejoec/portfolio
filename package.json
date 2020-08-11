@@ -15,7 +15,7 @@
   "scripts": {
     "build": "webpack --mode production",
     "build:tw": "postcss ./src/assets/styles/css/tailwind.css -o ./src/assets/styles/css/main.css",
-    "start": "npm run build:tw && webpack-dev-server --open --mode development --host 127.0.0.1"
+    "start": "npm run build:tw && webpack-dev-server --open --mode development --host 192.168.0.11"
   },
   "eslintConfig": {
     "extends": "react-app"

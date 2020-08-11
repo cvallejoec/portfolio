@@ -11,7 +11,7 @@ import ServiceGit from '../assets/static/service-git.svg';
 
 const Services = () => {
   return (
-    <div className="flex flex-col items-center">
+    <section className="flex flex-col items-center" id="services">
       <h2 className="mt-24 mb-16 text-3xl">I Have Knowledge In</h2>
       <div className="w-11/12 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3">
         <Service
@@ -45,7 +45,7 @@ const Services = () => {
           description="Finally, either if I'm working alone or with a team, I use productive workflows in order to get the best results."
         />
       </div>
-    </div>
+    </section>
   );
 };
 

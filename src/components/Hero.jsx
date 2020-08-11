@@ -9,7 +9,10 @@ import { queries } from '@testing-library/react';
 
 const Hero = () => {
   return (
-    <div className="text-portfolio_white  h-screen flex flex-col justify-center pl-8 lg:pl-48 background-hero">
+    <section
+      className="text-portfolio_white  h-screen flex flex-col justify-center pl-8 lg:pl-48 background-hero"
+      id="home"
+    >
       <div className="pt-40">
         <div className="flex">
           <IconGitHub
@@ -83,7 +86,7 @@ const Hero = () => {
           </g>
         </svg>
       </div>
-    </div>
+    </section>
   );
 };
 

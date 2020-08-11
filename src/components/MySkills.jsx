@@ -4,7 +4,10 @@ import Retrato from '../assets/static/retrato.jpeg';
 
 const MySkills = () => {
   return (
-    <section className="flex flex-col items-center justify-center mx-0 md:mx-32">
+    <section
+      className="flex flex-col items-center justify-center mx-0 md:mx-32"
+      id="skills"
+    >
       <h2 className="mt-24 mb-16 text-3xl">My Skills</h2>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-12 justify-center">
         <div className="w-11/12 md:w-full mx-auto">

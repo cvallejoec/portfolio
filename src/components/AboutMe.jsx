@@ -10,7 +10,10 @@ const AboutMe = () => {
   }, []);
 
   return (
-    <section className="flex flex-col items-center justify-center">
+    <section
+      className="flex flex-col items-center justify-center"
+      id="about-me"
+    >
       <h2 className="mt-24 mb-16 text-3xl">About Me</h2>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-12 justify-center">
         <img src={Retrato} className="w-11/12 md:w-10/12 mx-auto " />
@@ -43,7 +46,7 @@ const AboutMe = () => {
                 <label className="text-portfolio_orange font-bold">
                   Phone:
                 </label>
-                <p>(+593) 0998143981</p>
+                <p>(+593) 0998143091</p>
               </div>
               <div className="my-2">
                 <label className="text-portfolio_orange font-bold">

@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-scroll';
 
 import Emblem from '../assets/static/emblem.png';
 import Retrato from '../assets/static/retrato.jpeg';
@@ -34,62 +35,74 @@ const Menu = () => {
       >
         <nav>
           <ul className="lg:flex items-center justify-between text-base text-portfolio_gray pt-4 lg:pt-0">
-            <li>
-              <a
-                href="#"
-                className="lg:p-4 py-3 px-0 block border-b-2 border-transparent hover:border-portfolio_orange hover:text-portfolio_gray_dark uppercase text-right"
-              >
-                Home
-              </a>
-            </li>
-            <li>
-              <a
-                href="#"
-                className="lg:p-4 py-3 px-0 block border-b-2 border-transparent hover:border-portfolio_orange hover:text-portfolio_gray_dark uppercase text-right"
-              >
-                Services
-              </a>
-            </li>
-            <li>
-              <a
-                href="#"
-                className="lg:p-4 py-3 px-0 block border-b-2 border-transparent hover:border-portfolio_orange hover:text-portfolio_gray_dark uppercase text-right"
-              >
-                About Me
-              </a>
-            </li>
-            <li>
-              <a
-                href="#"
-                className="lg:p-4 py-3 px-0 block border-b-2 border-transparent hover:border-portfolio_orange hover:text-portfolio_gray_dark uppercase text-right"
-              >
-                Skills
-              </a>
-            </li>
-            {/* <li>
-              <a
-                href="#"
-                className="lg:p-4 py-3 px-0 block border-b-2 border-transparent hover:border-portfolio_orange hover:text-portfolio_gray_dark uppercase text-right"
-              >
-                Portfolio
-              </a>
-            </li>
-            <li>
-              <a
-                href="#"
-                className="lg:p-4 py-3 px-0 block border-b-2 border-transparent hover:border-portfolio_orange hover:text-portfolio_gray_dark uppercase text-right"
-              >
-                Clients
-              </a>
-            </li>
-            <li>
-              <a
-                href="#"
-                className="lg:p-4 py-3 px-0 block border-b-2 border-transparent hover:border-portfolio_orange hover:text-portfolio_gray_dark uppercase text-right"
-              >
-                Contact
-              </a>
-            </li> */}
+            <Link
+              activeClass="active"
+              to="home"
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={500}
+            >
+              <li>
+                <a
+                  href="#"
+                  className="lg:p-4 py-3 px-0 block border-t-2 border-transparent hover:border-portfolio_orange hover:text-portfolio_gray_dark uppercase text-right font-bold"
+                >
+                  Home
+                </a>
+              </li>
+            </Link>
+            <Link
+              activeClass="active"
+              to="services"
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={500}
+            >
+              <li>
+                <a
+                  href="#"
+                  className="lg:p-4 py-3 px-0 block border-t-2 border-transparent hover:border-portfolio_orange hover:text-portfolio_gray_dark uppercase text-right font-bold"
+                >
+                  Services
+                </a>
+              </li>
+            </Link>
+            <Link
+              activeClass="active"
+              to="about-me"
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={500}
+            >
+              <li>
+                <a
+                  href="#"
+                  className="lg:p-4 py-3 px-0 block border-t-2 border-transparent hover:border-portfolio_orange hover:text-portfolio_gray_dark uppercase text-right font-bold"
+                >
+                  About Me
+                </a>
+              </li>
+            </Link>
+            <Link
+              activeClass="active"
+              to="skills"
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={500}
+            >
+              <li>
+                <a
+                  href="#"
+                  className="lg:p-4 py-3 px-0 block border-t-2 border-transparent hover:border-portfolio_orange hover:text-portfolio_gray_dark uppercase text-right font-bold"
+                >
+                  Skills
+                </a>
+              </li>
+            </Link>
           </ul>
         </nav>
         <a
