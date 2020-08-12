@@ -6,7 +6,7 @@ const Service = ({ icon, title, description }) => {
       data-aos="fade-up"
       className="m-10 flex flex-col items-center sm:items-start"
     >
-      <img src={icon} className="w-16" />
+      <img src={icon} className="w-16" alt={icon} />
       <h2 className="my-8 text-2xl">{title}</h2>
       <p className="text-portfolio_gray text-center sm:text-left">
         {description}

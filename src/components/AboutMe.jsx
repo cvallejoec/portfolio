@@ -16,7 +16,11 @@ const AboutMe = () => {
     >
       <h2 className="mt-24 mb-16 text-3xl">About Me</h2>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-12 justify-center">
-        <img src={Retrato} className="w-11/12 md:w-10/12 mx-auto " />
+        <img
+          src={Retrato}
+          className="w-11/12 md:w-10/12 mx-auto "
+          alt="this-is-me"
+        />
         <div className="w-11/12 md:w-full mx-auto md:pr-16">
           <span className="block px-4 py-4 border-2 w-32 text-center text-xl font-bold">
             Hi There
