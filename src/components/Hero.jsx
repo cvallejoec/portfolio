@@ -10,7 +10,7 @@ import IconEmail from '../icons/icon-email.jsx';
 const Hero = () => {
   return (
     <section
-      className="text-portfolio_white  h-screen flex flex-col justify-center pl-8 lg:pl-48 background-hero"
+      className="text-portfolio_white  h-screen flex flex-col justify-center pl-8 lg:pl-48 background-hero bg-center"
       id="home"
     >
       <div className="pt-40">
