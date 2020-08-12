@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-scroll';
+import { Link as ScrollLink } from 'react-scroll';
 
 import Emblem from '../assets/static/emblem.png';
 import Retrato from '../assets/static/retrato.jpeg';
@@ -35,7 +35,7 @@ const Menu = () => {
       >
         <nav>
           <ul className="lg:flex items-center justify-between text-base text-portfolio_gray pt-4 lg:pt-0">
-            <Link
+            <ScrollLink
               activeClass="active"
               to="home"
               spy={true}
@@ -43,16 +43,11 @@ const Menu = () => {
               offset={-70}
               duration={500}
             >
-              <li>
-                <a
-                  href="#"
-                  className="lg:p-4 py-3 px-0 block border-t-2 border-transparent hover:border-portfolio_orange hover:text-portfolio_gray_dark uppercase text-right font-bold"
-                >
-                  Home
-                </a>
+              <li className="lg:p-4 py-3 px-0 block border-t-2 border-transparent hover:border-portfolio_orange hover:text-portfolio_gray_dark uppercase text-right font-bold">
+                Home
               </li>
-            </Link>
-            <Link
+            </ScrollLink>
+            <ScrollLink
               activeClass="active"
               to="services"
               spy={true}
@@ -60,16 +55,11 @@ const Menu = () => {
               offset={-70}
               duration={500}
             >
-              <li>
-                <a
-                  href="#"
-                  className="lg:p-4 py-3 px-0 block border-t-2 border-transparent hover:border-portfolio_orange hover:text-portfolio_gray_dark uppercase text-right font-bold"
-                >
-                  Services
-                </a>
+              <li className="lg:p-4 py-3 px-0 block border-t-2 border-transparent hover:border-portfolio_orange hover:text-portfolio_gray_dark uppercase text-right font-bold">
+                Services
               </li>
-            </Link>
-            <Link
+            </ScrollLink>
+            <ScrollLink
               activeClass="active"
               to="about-me"
               spy={true}
@@ -77,16 +67,11 @@ const Menu = () => {
               offset={-70}
               duration={500}
             >
-              <li>
-                <a
-                  href="#"
-                  className="lg:p-4 py-3 px-0 block border-t-2 border-transparent hover:border-portfolio_orange hover:text-portfolio_gray_dark uppercase text-right font-bold"
-                >
-                  About Me
-                </a>
+              <li className="lg:p-4 py-3 px-0 block border-t-2 border-transparent hover:border-portfolio_orange hover:text-portfolio_gray_dark uppercase text-right font-bold">
+                About Me
               </li>
-            </Link>
-            <Link
+            </ScrollLink>
+            <ScrollLink
               activeClass="active"
               to="skills"
               spy={true}
@@ -94,15 +79,10 @@ const Menu = () => {
               offset={-70}
               duration={500}
             >
-              <li>
-                <a
-                  href="#"
-                  className="lg:p-4 py-3 px-0 block border-t-2 border-transparent hover:border-portfolio_orange hover:text-portfolio_gray_dark uppercase text-right font-bold"
-                >
-                  Skills
-                </a>
+              <li className="lg:p-4 py-3 px-0 block border-t-2 border-transparent hover:border-portfolio_orange hover:text-portfolio_gray_dark uppercase text-right font-bold">
+                Skills
               </li>
-            </Link>
+            </ScrollLink>
           </ul>
         </nav>
         <a
