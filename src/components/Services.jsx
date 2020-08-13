@@ -22,7 +22,7 @@ const Services = () => {
         <Service
           icon={ServiceBackend}
           title="Backend"
-          description="From database to endpoints; I can build all the infraestructure, of any aplication. With experience in NodeJS and PHP."
+          description="From database to endpoints; I can build all the infraestructure, of any application. With experience in NodeJS and PHP."
         />
         <Service
           icon={ServiceScraping}

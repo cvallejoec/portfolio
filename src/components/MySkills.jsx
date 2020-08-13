@@ -14,7 +14,7 @@ const MySkills = () => {
           <h3 className="text-xl font-bold">Every Day is a New Challenge</h3>
           <p className="my-12 text-portfolio_gray text-lg">
             I like to keep learning, continue challenging myself, and do
-            interesting things that matter. I'm young, with abundant enery, and
+            interesting things that matter. I'm young, with abundant energy, and
             that's what pulls me to work hard; to proof to myself that I can do
             better things than what I am doing now.
           </p>
