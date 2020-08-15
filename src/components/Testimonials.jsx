@@ -30,8 +30,8 @@ const Testimonials = () => {
             <Testimonial
               text="Lorem fistrum nostrud incididunt minim minim. Magna minim ut magna. Hasta luego Lucas jarl se calle ustée a gramenawer occaecat occaecat sexuarl enim tiene musho peligro papaar papaar. Tiene musho peligro magna adipisicing ut pupita. Diodenoo aliquip llevame al sircoo voluptate dolore condemor. "
               picture={Retrato}
-              name="Jon Doe"
-              charge="Scrum Master"
+              name="Jhon Doe 1"
+              charge="My Charge"
             />
           </div>
         </div>
@@ -51,8 +51,8 @@ const Testimonials = () => {
             <Testimonial
               text="Lorem fistrum nostrud incididunt minim minim. Magna minim ut magna. Hasta luego Lucas jarl se calle ustée a gramenawer occaecat occaecat sexuarl enim tiene musho peligro papaar papaar. Tiene musho peligro magna adipisicing ut pupita. Diodenoo aliquip llevame al sircoo voluptate dolore condemor. "
               picture={Retrato}
-              name="Contacto 3"
-              charge="Scrum Master"
+              name="Jhon Doe 2"
+              charge="My Charge"
             />
           </div>
         </div>
@@ -72,8 +72,8 @@ const Testimonials = () => {
             <Testimonial
               text="Lorem fistrum nostrud incididunt minim minim. Magna minim ut magna. Hasta luego Lucas jarl se calle ustée a gramenawer occaecat occaecat sexuarl enim tiene musho peligro papaar papaar. Tiene musho peligro magna adipisicing ut pupita. Diodenoo aliquip llevame al sircoo voluptate dolore condemor."
               picture={Retrato}
-              name="Usuario 2"
-              charge="Team"
+              name="Jhon Doe 3"
+              charge="My Charge"
             />
           </div>
         </div>

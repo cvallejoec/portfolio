@@ -32,14 +32,16 @@ const Portfolio = () => {
                 target="_blank"
                 className="bg-portfolio_orange text-portfolio_white my-4 py-3 text-center rounded-md text-xl"
               >
-                Try It!
+                Try it!
+                <i className="lni lni-star-filled ml-2"></i>
               </a>
               <a
-                href=""
+                href="https://github.com/cvallejoec"
                 target="_blank"
                 className="border text-portfolio_white my-4 py-3 text-center rounded-md text-xl"
               >
                 Check the code
+                <i className="lni lni-github-original ml-2"></i>
               </a>
             </div>
           </div>

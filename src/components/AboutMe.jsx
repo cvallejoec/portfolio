@@ -3,6 +3,7 @@ import Aos from 'aos';
 import 'aos/dist/aos.css';
 
 import Retrato from '../assets/static/retrato-degradado-transparente.png';
+import Curriculum from '../assets/static/Currículum_Carlos_Vallejo_2020.pdf';
 
 const AboutMe = () => {
   useEffect(() => {
@@ -63,17 +64,34 @@ const AboutMe = () => {
           <hr className="border-1 border-portfolio_gray my-8" />
           <div>
             <a
+              className="bg-portfolio_orange px-2 py-3 text-sm font-semibold uppercase mr-2 lg:px-8"
+              href="mailto:cvallejo.ec@gmail.com"
+            >
+              Contact Me
+              <i className="lni lni-arrow-right ml-2"></i>
+            </a>
+            <a
+              className="border px-2 py-3 text-sm font-semibold uppercase lg:px-8"
+              href={Curriculum}
+              download
+            >
+              <i className="lni lni-download mr-2"></i>
+              Download CV
+            </a>
+            {/* <a
               className="bg-portfolio_orange px-4 py-1 md:px-6 md:py-2 md:font-semibold uppercase mr-4"
               href=""
             >
               Contact Me
+              <i className="lni lni-arrow-right ml-2"></i>
             </a>
             <a
               className="border px-4 py-1 md:px-6 md:py-2 md:font-semibold uppercase"
               href=""
             >
+              <i className="lni lni-download mr-2"></i>
               Download CV
-            </a>
+            </a> */}
           </div>
         </div>
       </div>
