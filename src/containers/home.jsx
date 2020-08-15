@@ -4,6 +4,7 @@ import Hero from '../components/Hero.jsx';
 import Services from '../components/Services.jsx';
 import AboutMe from '../components/AboutMe.jsx';
 import MySkills from '../components/MySkills.jsx';
+import Testimonials from '../components/Testimonials.jsx';
 
 const Home = () => {
   return (
@@ -12,6 +13,7 @@ const Home = () => {
       <Services />
       <AboutMe />
       <MySkills />
+      <Testimonials />
     </React.Fragment>
   );
 };

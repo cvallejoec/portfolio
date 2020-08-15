@@ -87,6 +87,18 @@ const Menu = () => {
                   Skills
                 </li>
               </ScrollLink>
+              <ScrollLink
+                activeClass="active"
+                to="testimonials"
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={500}
+              >
+                <li className="cursor-pointer lg:p-4 py-3 px-0 block border-t-2 border-transparent hover:border-portfolio_orange hover:text-portfolio_gray_dark uppercase text-right font-bold">
+                  Testimonials
+                </li>
+              </ScrollLink>
               <Link to="/portfolio">
                 <li className="cursor-pointer lg:p-4 py-3 px-0 block border-t-2 border-transparent hover:border-portfolio_orange hover:text-portfolio_gray_dark uppercase text-right font-bold">
                   Portfolio
