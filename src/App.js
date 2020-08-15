@@ -7,6 +7,8 @@ import './assets/styles/css/main.css';
 
 import Menu from './components/Menu.jsx';
 import Home from './containers/home.jsx';
+import Portfolio from './containers/Portfolio.jsx';
+import NotFound from './containers/NotFound.jsx';
 import Footer from './components/Footer.jsx';
 
 function App() {
@@ -20,6 +22,8 @@ function App() {
         <Menu />
         <Switch>
           <Route exact path="/" component={Home} />
+          <Route exact path="/portfolio" component={Portfolio} />
+          <Route component={NotFound} />
         </Switch>
         <div className="h-56"></div>
         <Footer />
