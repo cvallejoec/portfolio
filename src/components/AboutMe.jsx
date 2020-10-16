@@ -3,7 +3,7 @@ import Aos from 'aos';
 import 'aos/dist/aos.css';
 
 import Retrato from '../assets/static/retrato-degradado-transparente.png';
-import Curriculum from '../assets/static/Currículum_Carlos_Vallejo_2020.pdf';
+import Curriculum from '../assets/static/Currículum.pdf';
 
 const AboutMe = () => {
   useEffect(() => {

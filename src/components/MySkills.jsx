@@ -23,7 +23,7 @@ const MySkills = () => {
             projects and roles with relative ease.
           </p>
           <a
-            href=""
+            href="mailto:cvallejo.ec@gmail.com"
             className="uppercase border px-6 py-3 hover:bg-portfolio_white hover:text-portfolio_gray_dark hover:font-semibold"
           >
             Contact Me
