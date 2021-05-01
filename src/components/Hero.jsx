@@ -6,6 +6,7 @@ import IconGitHub from '../icons/icon-github.jsx';
 import IconLinkedIn from '../icons/incon-linkedin.jsx';
 import IconWhatsApp from '../icons/icon-whatsapp.jsx';
 import IconEmail from '../icons/icon-email.jsx';
+import IconTikTok from '../icons/icon-tiktok.jsx';
 
 const Hero = () => {
   return (
@@ -32,6 +33,11 @@ const Hero = () => {
           />
           <IconWhatsApp
             link="https://api.whatsapp.com/send?phone=593998143091&text=Hola%20Carlos!%20Vi%20tu%20portafolio%20y%20quisiera%20m%C3%A1s%20informaci%C3%B3n"
+            width="30"
+            fill="hover:text-portfolio_gray_light text-portfolio_gray fill-current"
+          />
+          <IconTikTok
+            link="https://www.tiktok.com/@cvallejo.ec"
             width="30"
             fill="hover:text-portfolio_gray_light text-portfolio_gray fill-current"
           />

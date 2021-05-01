@@ -5,8 +5,8 @@ const IconWhatsApp = ({ link, width, fill }) => {
     <a href={link} target="_blank" className="m-2">
       <svg
         height={width}
-        viewBox="-23 -21 682 682.66669"
         width={width}
+        viewBox="-23 -21 682 682.66669"
         xmlns="http://www.w3.org/2000/svg"
         className={fill}
       >
